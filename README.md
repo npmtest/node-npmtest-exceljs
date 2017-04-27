@@ -1,6 +1,6 @@
 # npmtest-exceljs
 
-#### test coverage for  [exceljs (v0.4.3)](https://github.com/guyonroche/exceljs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-exceljs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-exceljs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-exceljs.svg)](https://travis-ci.org/npmtest/node-npmtest-exceljs)
+#### basic test coverage for  [exceljs (v0.4.4)](https://github.com/guyonroche/exceljs#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-exceljs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-exceljs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-exceljs.svg)](https://travis-ci.org/npmtest/node-npmtest-exceljs)
 
 #### Excel Workbook Manager - Read and Write xlsx and csv Files.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-exceljs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-exceljs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-exceljs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-exceljs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-exceljs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-exceljs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-exceljs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-exceljs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-exceljs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-exceljs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-exceljs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-exceljs/build/coverage.html/index.html)
 
@@ -81,8 +81,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "a6768ff1483b71e7dced97c1551b73ad25b7c022",
-        "tarball": "https://registry.npmjs.org/exceljs/-/exceljs-0.4.3.tgz"
+        "shasum": "1ca0a9ecf03cb07318d190576c60180b6e9eb67c",
+        "tarball": "https://registry.npmjs.org/exceljs/-/exceljs-0.4.4.tgz"
     },
     "files": [
         "excel.js",
@@ -92,7 +92,7 @@
         "README.md",
         "MODEL.md"
     ],
-    "gitHead": "7fde8ee62f87e6d8130cb7cccfde40760c9ce23f",
+    "gitHead": "8d08034554f471b4bdb1a632ecf749df35a6dd3a",
     "homepage": "https://github.com/guyonroche/exceljs#readme",
     "keywords": [
         "xlsx",
@@ -146,7 +146,8 @@
         "test": "npm run unit-test && npm run integration-test && npm run end-to-end-test && npm run browser-test",
         "unit-test": "mocha spec/unit --recursive"
     },
-    "version": "0.4.3"
+    "version": "0.4.4",
+    "bin": {}
 }
 ```
 
